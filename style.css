@@ -1,6 +1,6 @@
 @font-face {
     font-family: ProximaNova;
-    src: url(/ProximaNova-Regular.ttf);
+    src: url(./ProximaNova-Regular.ttf);
 }
 *{
     margin: 0;
