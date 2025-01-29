@@ -174,12 +174,14 @@ p{
     }
     #first h2{
         font-size: 7vw;
+        margin-top: 3vw;
     }
     #first h2 i{
         font-size: 5vw
     }
     #first h4{
         font-size: 5vw;
+        margin-bottom: 4vw;
     }
     
     #social{
