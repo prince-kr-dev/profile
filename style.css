@@ -1,0 +1,234 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url(/ProximaNova-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ProximaNova";
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #cbd1cc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#first{
+    background-color: #FFFFFB;
+    width: 20vw;
+    height: fit-content;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+#first img{
+    height: 7vw;
+    width: 7vw;
+    outline: 0.5vw solid #FFFFFB;
+    border-radius: 1vw;
+    margin-top: -4vw;
+}
+#first h2{
+    margin-top: 1vw;
+    color: #5f6160;
+    font-size: 1.7vw;
+    display: flex;
+    align-items: center;
+}
+#first h2 i{
+    color: #5A56F1;
+    margin-left: 3px;
+    font-size: 1.2vw
+}
+#first h4{
+    color: #878a88;
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+
+#social{
+    width: 20vw;
+    height: 3vw;
+    background-color: #FFFFFB;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 1vw;
+}
+
+#social a{
+    text-decoration: none;
+}
+#social i{
+    color: #5f6160;
+    background-color: #dfdfdd;
+    border: 1px solid #dfdfdd;
+    padding: 0.3vw;
+    border-radius: 5px;
+    font-size: 1.6vw;
+    transition: all ease 0.5s;
+}
+#social i:hover{
+    border: 1px solid #5f616096;
+}
+
+#action{
+    height: fit-content;
+    width: 20vw;
+    background-color: #FFFFFB;
+    padding: 1vw 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#action button{
+    border-radius: 0.5vw;
+    padding: 0.7vw 1.5vw;
+    border: none;
+    background-color: #FFFFFB;
+    font-size: 1vw;
+    font-weight: 1000;
+    color: #5f6160;
+    transition: all ease 0.3s;
+}
+#action button:hover{
+    cursor: pointer;
+    background-color: #6f6be771;
+}
+
+p{
+    width: 20vw;
+    height: 7vw;
+    line-height: 1.2vw;
+    background-color: #FFFFFB;
+    padding: 0 2vw 1vw 2vw;
+    font-size: 1vw;
+    color: #6f7270;
+    display: none;
+}
+
+#skill{
+    width: 20vw;
+    height: 7vw;
+    background-color: #FFFFFB;
+    padding: 0 2vw 1vw 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: none;
+}
+
+#skill h3{
+    font-size: 1.3vw;
+    background-color: #a8aaa846;
+    color: #676967d0;
+    margin-bottom: 0.3vw;
+    padding: 0.35vw 0.5vw;
+    border-radius: 0.3vw;
+    font-size: 1.2vw;
+}
+
+#tel{
+    height: 4vw;
+    width: 20vw;
+    background-color: #FFFFFB;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tel a{
+    text-decoration: none;
+    background-color: #4643f7;
+    font-size: 1.2vw;
+    color: #FFFFFB;
+    font-weight: 700;
+    letter-spacing: 0.1vw;
+    padding: 0.7vw 5.3vw;
+    border-radius: 0.5vw;
+}
+
+@media (max-width:600px) {
+    #first{
+        width: 80vw;
+    }
+    #first img{
+        height: 27vw;
+        width: 27vw;
+        margin-top: -12vw;
+        outline: 1.2vw solid #FFFFFB;
+    }
+    #first h2{
+        font-size: 7vw;
+    }
+    #first h2 i{
+        font-size: 5vw
+    }
+    #first h4{
+        font-size: 5vw;
+    }
+    
+    #social{
+        width: 80vw;
+        height: 8vw;
+        padding: 0 4vw;
+    }
+    #social i{
+        font-size: 6vw;
+    }
+
+    #action{
+        width: 80vw;
+        padding-top: 3vw
+    }
+    #action button{
+        border-radius: 1vw;
+        padding: 2vw 7vw;
+        font-size: 4vw;
+    }
+
+    p{
+        width: 80vw;
+        height: 25vw;
+        line-height: 4.5vw;
+        padding: 1vw 5vw 1vw 5vw;
+        font-size: 4vw;
+    }
+    
+    #skill{
+        width: 80vw;
+        height: 25vw;
+        padding: 1vw 5vw 1vw 5vw;
+    }
+    
+    #skill h3{
+        font-size: 4.5vw;
+        padding: 1vw;
+        margin-bottom: 1vw;
+    }
+
+    #tel{
+        height: 15vw;
+        width: 80vw;
+    }
+    #tel a{
+        background-color: #4643f7;
+        font-size: 4.5vw;
+        padding: 3vw 25vw;
+        border-radius: 1vw;
+    }
+}
